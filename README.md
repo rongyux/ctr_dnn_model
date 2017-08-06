@@ -24,12 +24,17 @@ CTR(Click-Through Rate，点击率预估)
 2.  业务规则和相关性过滤
 3.  根据拍卖机制和 CTR 排序
 4.  展出广告
-### LR vs DNN
+
+### 输入／输出
 
 训练：python train.py
+
 预估：python infer.py
+
 输入样本：
+
 id,click,hour,C1,banner_pos,site_id,site_domain,site_category,app_id,app_domain,app_category,device_id,device_ip,device_model,device_type,device_conn_type,C14,C15,C16,C17,C18,C19,C20,C21
+
 1000009418151094273,0,14102100,1005,0,1fbe01fe,f3845767,28905ebd,ecad2386,7801e8d9,07d7df22,a99f214a,ddd2926e,44956a24,1,2,15706,320,50,1722,0,35,-1,79
 10000169349117863715,0,14102100,1005,0,1fbe01fe,f3845767,28905ebd,ecad2386,7801e8d9,07d7df22,a99f214a,96809ac8,711ee120,1,0,15704,320,50,1722,0,35,100084,79
 
